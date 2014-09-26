@@ -1,61 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>di todo</title>  
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet" type="text/css" />
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+<link href='css/main.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">	
-				<h1> TODO list </h1>
-			</div>
-		</div>
-
-	  <div class="row1">
-			<div class="col-md-6 col-md-offset-3" id='forunload'>
-			  <header id="header">
-			    <form  class="diin">
-				    <input type="text" class="diinput" placeholder="Yo, what are you planning to do?">
-			    </form>
-			  </header>
-
-			  <section id="main">
-          <ul id="todo-list">
-          	
-          </ul>
-        </section>
-
-        <footer class="row" id="footer">
-        	<div class="col-md-3">
-	        	<span id='items'></span>
-	        </div>
-
-	        <div class="col-md-4">
-	        	<ul>
-	        		<li class='all'>all</li>
-	        		<li class='target'>target</li>
-	        		<li class='done'>done</li>
-	        	</ul>
-	        </div>
-
-	        <div class="col-md-3 col-md-offset-2">
-	        	<button id='clear' type='button' class='btn btn-warning btn-xs'>clear done</button>
-	        </div>
-        </footer>
-      </div>
-		</div>
-	</div>
-<ul>
-	<li><span class="inplace" data-url="/">TEST</span><li>
-</ul>
-
-
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://www.appelsiini.net/download/jquery.jeditable.mini.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+<div id='map'></div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiZGlkaW1hcCIsImEiOiJ1OWN4RGhBIn0.FghvEANjBxfq4PYBzb74cg';
+var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+    .setView([29.7, -95.50], 10);
+</script>
 </body>
 </html>
