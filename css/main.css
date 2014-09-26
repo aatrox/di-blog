@@ -4,7 +4,8 @@ body {
 
 #map { 
  	position:absolute; 
- 	top:0; 
- 	bottom:0; 
- 	width:70%; 
+ 	top: 150px; 
+ 	bottom: 100px; 
+ 	left: 250px;
+ 	right: 550px; 
 }
