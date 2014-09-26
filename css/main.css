@@ -1,11 +1,30 @@
 body {
-  margin:0; padding:0;
+  background-color: rgba(100, 0, 0, 0.1);
 }
 
 #map { 
- 	position:absolute; 
- 	top: 150px; 
- 	bottom: 100px; 
- 	left: 250px;
- 	right: 550px; 
+ 	border: 1px solid #fff123;
+ 	height: 500px;
+}
+
+h1 {
+	font-family: 'Helvetica';
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 400%;
+	font-weight: 900;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 200%
+}
+
+
+
+input{
+	width: 400px;
+	height: 40px;
 }
