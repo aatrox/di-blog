@@ -37,3 +37,18 @@ L.mapbox.featureLayer({
 		'marker-symbol': 'building'
 	}
 }).addTo(map);
+
+var polyline = L.polyline([]).addTo(map);
+var waypoints = [[-95.3439463, 29.7481023], [-95.3439463, 29.7481023], [-95.3505676, 29.7462749 ], [-95.3505676, 29.7462749 ], [-95.3506688, 29.7462444 ], [-95.3506337, 29.7462595 ], [-95.3506657, 29.7462669 ], [-95.3507029, 29.7462172 ], [-95.3507029, 29.7462172 ], [-95.3506745, 29.7462262 ], [-95.3443197, 29.7478217 ], [-95.3505176, 29.7462748 ], [-95.4372412, 29.6923866 ], [-95.4372622, 29.6923139 ], [-95.4375307, 29.6913836 ], [-95.4415693, 29.686428 ]]
+var wpAdded = 0;
+
+add();
+
+function add(){
+	
+  polyline.addLatLng(L.latLng(waypoints[wpAdded][0], waypoints[wpAdded][1]));
+  map.setView([waypoints[wpAdded][0], waypoints[wpAdded][1]], 11);
+
+	if (++wpAdded < waypoints.length) window.setTimeout(add, 100);
+
+}
