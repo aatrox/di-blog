@@ -1,3 +1,62 @@
 body{
 	background-color: rgba(0, 0, 0, 0);
 }
+
+.navbar-default{
+  font-size: 96%;
+}
+
+#footer{
+	padding-top: 20px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+	color: #777777;
+	font-size: 90%;
+}
+
+
+
+#main{
+	margin-bottom: 80px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.carousel-inner img{
+	width: 931px;
+}
+
+#po-div{
+  padding-bottom: 100px;
+}
+
+#po-div img{
+	width: 290px;
+	height: 220px;
+	border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+#weblink{
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 30px;
+}
+
+#weblink p{
+	color: #777777;
+	font-weight: bold;
+}
+
+h2{
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+#more{
+	float: left;
+	margin-top: 20px;
+}
