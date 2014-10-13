@@ -1,9 +1,10 @@
 body{
 	background-color: rgba(0, 0, 0, 0);
+	font-family: 'Hiragino Sans GB';
 }
 
 .navbar-default{
-  font-size: 95%;
+  font-size: 86%;
 }
 
 #footer{
