@@ -96,3 +96,17 @@ b#ma{
 p#ma{
 	text-align: justify;
 }
+
+#paypal{
+	margin-top: 20px;
+}
+
+#contact th{
+	width: 300px;
+}
+
+#map{
+	margin-top: 20px;
+	margin-left: 150px;
+	border: 1px solid #fff123;
+}

@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Grace Computer</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='css/main.css' rel='stylesheet' type='text/css'>
@@ -10,13 +13,13 @@
 	<div class='row'>
     <div class='col-md-8 col-md-offset-2'>
     	<header>
-        <img src='images/g1.png'>
-        <div class='navbar navbar-default' role='navigation'>
+    		<img src='images/g1.png'>
+    		<div class='navbar navbar-default' role='navigation'>
           <div class='container-fluid'>
             <ul class='nav navbar-nav'>
-              <li><a href='index.html'>Home</a></li>
-              <li class='company'>
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Company <span class='caret'></span></a>
+            	<li><a href='index.html'>Home</a></li>
+            	<li class='company'>
+            		<a href='#' class='dropdown-toggle' data-toggle='dropdown'>Company <span class='caret'></span></a>
                 <ul class='dropdown-menu' role='menu'>
                   <li><a href='#'>Vision</a></li>    
                   <li><a href='management.html'>Management</a></li> 
@@ -26,7 +29,7 @@
               </li>
               <li><a href='#'>PC Service</a></li>
               <li class='software development'>
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Software Development <span class='caret'></span></a>
+            		<a href='#' class='dropdown-toggle' data-toggle='dropdown'>Software Development <span class='caret'></span></a>
                 <ul class='dropdown-menu' role='menu'>
                   <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web-based Software <b class="caret caret-right"></b></a>
@@ -47,7 +50,7 @@
                 </ul>
               </li>
               <li class='web design'>
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown'>web design <span class='caret'></span></a>
+            		<a href='#' class='dropdown-toggle' data-toggle='dropdown'>web design <span class='caret'></span></a>
                 <ul class='dropdown-menu' role='menu'>
                   <li><a href='portfolio.html'>portfolio</a></li>    
                   <li><a href='web-hosting.html'>web hosting</a></li> 
@@ -56,7 +59,7 @@
                 </ul>
               </li>
               <li class='branding'>
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Branding <span class='caret'></span></a>
+            		<a href='#' class='dropdown-toggle' data-toggle='dropdown'>Branding <span class='caret'></span></a>
                 <ul class='dropdown-menu' role='menu'>
                   <li><a href='#'>Graphic Design</a></li>    
                   <li><a href='#'>Printing Service</a></li> 
@@ -68,7 +71,7 @@
               </li>
               <li><a href='#'>FAQ</a></li>
               <li class='customers'>
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown'>customers <span class='caret'></span></a>
+            		<a href='#' class='dropdown-toggle' data-toggle='dropdown'>customers <span class='caret'></span></a>
                 <ul class='dropdown-menu' role='menu'>
                   <li><a href='#'>specialty gas products</a></li>    
                   <li><a href='#'>yeh center</a></li> 
@@ -80,90 +83,42 @@
               <li><a href='contact.html'>Contact</a></li>
             </ul>
           </div>
-        </div>
-      </header>
+    		</div>
+    	</header>
     	<section id='main'>
-    		<h1>Portfolio</h1>
-    		<div id='po-div' class='web-design'>
-          <h2>New Web Design</h2>
-          <div class='row'>
-            <div class='col-md-4'>
-              <img src='images/po1.jpg'> 
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po2.jpg'>
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po3.jpg'>
-            </div>
-          </div>
-          <div id='weblink' class='row'>
-            <div class='col-md-4'>
-              <a href='http://www.asiacabinetry.com/'><p>www.asiacabinetry.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.gilandjas.com/'><p>www.gilandjas.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.hccba.org/'><p>www.hccba.org</p></a>
-            </div>
-          </div>
-          <button id='more' class='btn btn-default btn-sm'>More New Web Design Samples>>></button> 
+    		<h1>Contact Us</h1>
+        <table id='contact' class='table table-striped'>
+          <tr>
+            Grace Computer & Internet Corp. (GCI)
+          </tr>
+          <tr>
+            <th>Phone:</th>
+            <td>713.779.8444</td>
+          </tr>
+          <tr>
+            <th>Fax:</th>
+            <td>713.779.6226</td>
+          </tr>
+          <tr>
+            <th>Our Team:</th>
+            <td>
+              General manager: Grace Feng info@gracecomputer.net
+
+              Tech Department: Dr. Mike Tang it@gracecomputer.net
+              Service Department: Wilson Lu update@gracecomputer.net
+              Web: Gia Dinh intern@gracecomputer.net
+              Designer: Carol Leung design@gracecomputer.net
+              Apply for a job: job@gracecomputer.net
+            </td>
+          </tr>
+          <tr>
+            <th>Address:</th>
+            <td>6918 Corporate Dr. A16 Houston, TX 77036</td>
+          </tr>
+        </table>
+        <div class='container'>
+          <div id='map' style="width: 600px; height: 600px;"></div>
         </div>
-        <div id='po-div' class='shopping-r'>
-          <h2>Shopping Carts: Retail</h2>
-          <div class='row'>
-            <div class='col-md-4'>
-              <img src='images/po4.jpg'> 
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po5.jpg'>
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po6.jpg'>
-            </div>
-          </div>
-          <div id='weblink' class='row'>
-            <div class='col-md-4'>
-              <a href='http://www.gowelltrading.com/'><p>www.gowelltrading.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.cellprs.com/'><p>www.cellprs.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.GetRXD.com/'><p>www.GetRXD.com</p></a>
-            </div>
-          </div>
-          <button id='more' class='btn btn-default btn-sm'>More Shopping Cart Samples>>></button> 
-        </div>
-        <div id='po-div' class='shopping-wh'>
-          <h2>Shopping Carts: Wholesale</h2>
-          <div class='row'>
-            <div class='col-md-4'>
-              <img src='images/po7.jpg'> 
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po8.jpg'>
-            </div>
-            <div class='col-md-4'>
-              <img src='images/po9.jpg'>
-            </div>
-          </div>
-          <div id='weblink' class='row'>
-            <div class='col-md-4'>
-              <a href='http://www.GaoTrading.com/'><p>www.GaoTrading.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.AAAfurnitureUSA.com/'><p>www.AAAfurnitureUSA.com</p></a>
-            </div>
-            <div class='col-md-4'>
-              <a href='http://www.FeiGifts.com/'><p>www.FeiGifts.com</p></a>
-            </div>
-          </div>
-          <button id='more' class='btn btn-default btn-sm'>More Shopping Cart Samples>>></button> 
-        </div>
-    		
-        
     	</section>
     	<footer id='footer'>
     		<p>Copyright  2014 Grace Computer & Internet Corp. - All Rights Reserved</p>

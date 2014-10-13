@@ -77,7 +77,7 @@
                   <li><a href='#'>meeting and events</a></li>  
                 </ul>
               </li>
-              <li><a href='#'>Contact</a></li>
+              <li><a href='contact.html'>Contact</a></li>
             </ul>
           </div>
     		</div>
@@ -204,39 +204,118 @@
         </p>
         
         <form>
-          <div class='form-group'>
-            <label for="name">Name</label>
-            <input type="name" class="form-control" id="name" placeholder="Enter your name">
+          <div class='row'>
+            <div class='col-md-9'>
+              <div class='form-group'>
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class='form-group'>
+                <label for="address">Address</label>
+                <input type="address" class="form-control" id="address" placeholder="Enter your address">
+              </div>
+            </div>
           </div>
-          <div class='form-group'>
-            <label for="address">Address</label>
-            <input type="address" class="form-control" id="address" placeholder="Enter your address">
+          <div class='form-inline' role='form'>   
+            <div class='row'>
+              <div class='col-md-2'>
+                <div class='form-group'>
+                  <label  for="city">City</label>
+                  <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                </div> 
+              </div>
+              <div class='col-md-3 col-md-offset-1'>
+                <div class='form-group'>
+                  <label  for="state">State</label>
+                  <input type="text" class="form-control" id="state" placeholder="Enter your state">
+                </div>
+              </div>
+              <div class='col-md-3'>
+                <div class='form-group'>
+                  <label  for="zip-code">Zip Code</label>
+                  <input type="text" class="form-control" id="zip-code" placeholder="Enter your zip code">
+                </div>
+              </div>
+            </div>
+          </div><br>
+          <div class='row'>
+            <div class='col-md-9'>
+              <div class='form-group'>
+                <label for="telephone">Telephone</label>
+                <input type="telephone" class="form-control" id="telephone" placeholder="Enter your telephone">
+              </div>
+              <div class='form-group'>
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class='form-group'>
+                <label for="comment">Comment</label>
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+            </div>
+          </div><br>
+          <div class='row'>
+            <div class='col-md-2'>
+              <p>Domain/yr:<br><br>$10.00</p>
+            </div>
+            <div class='col-md-2'>
+              <div class='form-group'>
+                <label for="QTY">QTY</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class='col-md-2 col-md-offset-1'>
+              <img id='paypal' src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            </div>
           </div>
-
-        </form>
-
-        <form class='form-inline' role='form'>   
-          <div class='form-group'>
-            <label  for="city">City</label>
-            <input type="text" class="form-control" id="city" placeholder="Enter your city">
-          </div> 
-          <div class='form-group'>
-            <label  for="state">State</label>
-            <input type="text" class="form-control" id="state" placeholder="Enter your state">
+          <div class='row'>
+            <div class='col-md-2'>
+              <p>Domain/yr:<br><br>$15.00</p>
+            </div>
+            <div class='col-md-2'>
+              <div class='form-group'>
+                <label for="QTY">QTY</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class='col-md-2 col-md-offset-1'>
+              <img id='paypal' src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            </div>
           </div>
-          <div class='form-group'>
-            <label  for="zip-code">Zip Code</label>
-            <input type="text" class="form-control" id="zip-code" placeholder="Enter your zip code">
-          </div>
-        </form>
-
-          
-       
-          
-        
-        
-        
-
+          <div class='row'>
+            <div class='col-md-2'>
+              <p>Hosting/yr:<br><br>$96.00</p>
+            </div>
+            <div class='col-md-2'>
+              <div class='form-group'>
+                <label for="QTY">QTY</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class='col-md-2 col-md-offset-1'>
+              <img id='paypal' src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            </div>
+          </div><br><br>
+          <button type="submit" class="btn btn-default">Submit Form</button>
+        </form>           
     	</section>
     	<footer id='footer'>
     		<p>Copyright  2014 Grace Computer & Internet Corp. - All Rights Reserved</p>

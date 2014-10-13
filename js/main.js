@@ -18,3 +18,26 @@ $(function(){
     }
   });
 });
+
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiZGlkaW1hcCIsImEiOiJ1OWN4RGhBIn0.FghvEANjBxfq4PYBzb74cg';
+var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+    .setView([29.7, -95.55], 11);
+
+L.mapbox.featureLayer({
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [
+      -95.551,
+      29.705  
+    ]
+  },
+  properties: {
+    title:'Grace Computer',
+    description:'6918 Corporate Dr. A16 Houston, TX 77036',
+    'marker-size': 'medium',
+    'marker-color': '#ff8888',
+    'marker-symbol': 'star'
+  }
+}).addTo(map);
