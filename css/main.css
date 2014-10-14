@@ -111,3 +111,7 @@ p#ma{
 	margin-left: 150px;
 	border: 1px solid #fff123;
 }
+
+#body{
+	max-width: 933px;
+}
