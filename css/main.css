@@ -6,11 +6,6 @@ body {
   width: 100%;
 }
 
-
-.banner img{
-  width: 100%;
-}
-
 .navbar {
   max-height: 50px;
 }
@@ -19,9 +14,13 @@ ul li {
   width: auto;
 }
 
+#portfolio img{
+  max-width: 85%;
+}
+
 @media(min-width: 1200px) {
   ul li {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #portfolio img{
