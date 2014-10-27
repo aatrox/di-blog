@@ -1,12 +1,11 @@
-body{
-	background-color: rgba(0, 0, 0, 0);
-	/*font-family: 'Hiragino Sans GB';*/
-	font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-default{
-  font-size: 98%;
+.banner img{
+  width: 100%;
 }
+
 
 .banner img{
   width: 100%;
@@ -22,7 +21,7 @@ ul li {
 
 @media(min-width: 1200px) {
   ul li {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   #portfolio img{
@@ -46,7 +45,11 @@ ul li {
 @media(max-width: 992px) {
   ul li {
     font-size: 10px;
-    max-width: 100px;
+  }
+
+  ul li a {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
   }
 
   #portfolio img{
@@ -54,6 +57,7 @@ ul li {
     border: 1px solid rgba(0, 0, 0, 0.1)
   }
 }
+
 
 #footer{
 	padding-top: 20px;
@@ -85,11 +89,6 @@ h1{
   padding-bottom: 100px;
 }
 
-#po-div img{
-	width: 290px;
-	height: 220px;
-	border: 1px solid rgba(0, 0, 0, 0.1)
-}
 
 #weblink{
 	text-align: center;
