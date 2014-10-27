@@ -27,7 +27,19 @@ ul li {
     height: 220px;
     border: 1px solid rgba(0, 0, 0, 0.1)
   }
+  
+  .carousel-inner img{
+  	width: 100%;
+  }
 
+  #map{
+  	width: 800px !important;
+  	height: 800px !important;
+  }  
+
+  #footer.ma{
+  	margin-top: 400px !important;
+  }
 }
 
 @media(max-width: 1199px) {
@@ -51,9 +63,30 @@ ul li {
     padding-right: 6px !important;
   }
 
+  #city{
+  	max-width: 160px;	
+  }
+
+  #state{
+  	max-width: 160px;
+  }
+
+  #zip{
+  	max-width: 160px;
+  }
+
   #portfolio img{
     height: 160px;
     border: 1px solid rgba(0, 0, 0, 0.1)
+  }
+
+  #map{
+  	width: 400px !important;
+  	height: 400px !important;
+  }  
+
+  #footer.ma{
+  	margin-top: 200px !important;
   }
 }
 
@@ -81,7 +114,7 @@ h1{
 }
 
 .carousel-inner img{
-	width: 931px;
+	width: 100%;
 }
 
 #po-div{
@@ -161,3 +194,5 @@ p#ma{
 #didiv{
 	max-width: 960px;
 }
+
+
