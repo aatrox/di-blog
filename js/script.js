@@ -4,6 +4,7 @@ $('#cssmenu ul ul li:odd').addClass('odd');
 $('#cssmenu ul ul li:even').addClass('even');
 $('#cssmenu > ul > li > a').click(function() {
   $('#cssmenu li').removeClass('active');
+  $(this).closest('li').siblings().find('li').removeClass('clickactive');
   $(this).closest('li').addClass('active');	
   var checkElement = $(this).next();
   if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
