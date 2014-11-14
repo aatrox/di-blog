@@ -12,7 +12,16 @@ $(document).ready(function(){
   	$(this).closest('ul').closest('li').siblings().removeClass('active');
   	$(this).closest('ul').closest('li').addClass('active'); 	 
   })
+  
+  $('#midbtndiv').on('click', function(){
+  	$('.mid2nd').show();
+  	$(this).hide();
+  })
 
+  $('#lastbtn').on('click', function(){
+  	$(this).hide();
+  	$('#lastp').show();
+  })
 })
 
 
