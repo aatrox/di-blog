@@ -22,6 +22,17 @@ $(document).ready(function(){
   	$(this).hide();
   	$('#lastp').show();
   })
+
+  $('#middle p').each(function(){
+    var str = $(this).html();
+    var n = str.length;
+    if (n>130){
+      var newp = str.substring(0, 130) + '...';
+      $(this).html(newp);
+    }
+  })
+    
+  
 })
 
 

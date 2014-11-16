@@ -59,14 +59,14 @@
 #cssmenu > ul > li.has-sub > a:after {
   content: "";
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: 10px;
   border: 7px solid transparent;
   border-left: 7px solid #ffffff;
 }
 #cssmenu > ul > li.has-sub.active > a:after {
   right: 14px;
-  top: 22px;
+  top: 26px;
   border: 7px solid transparent;
   border-top: 7px solid #4e5800;
 }

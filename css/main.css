@@ -2,6 +2,47 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+@media(max-width: 991px){
+  #header-follow{
+    display: none;
+  }
+
+  #header span{
+    display: none;
+  }
+
+  #header-a{
+    font-size: 30px !important;  
+  }
+  
+  #header{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  #middle p{
+    font-size: 14px !important;
+  }
+}
+
+@media(max-width: 580px){
+  #middle img{
+    width: 58px !important;
+    height: 58px !important;
+  }
+
+  h1{
+    font-size: 22px !important;
+  }
+
+  #header #header-a{
+    font-size: 25px !important;
+  }
+}
+
 #header{
   background-color: #666;
   height:80px;
@@ -23,7 +64,6 @@ body {
   margin-right: 30px;
   margin-left: 10px;
   line-height: 100px;
-  
 }
 
 #header-span{
@@ -94,14 +134,20 @@ body {
   display: none;
 }
 
-#middle{
-  
+.middiv{
+  max-height: 200px;
 }
 
 #middle img{
-  /*float: right;*/
+  float: right;
   width: 118px;
   height: 118px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#middle p{
+  font-size: 16px;
 }
 
 #middle ul{
@@ -113,26 +159,16 @@ body {
   list-style: none;
 }
 
-#middle p{
-  font-size: 16px;
-}
-
 #middle h1{
   color: rgb(44, 125, 212);
 }
-
-/*.middlediv{
-  width: 715px;
-  height: 190px;
-  padding: 20px;
-}*/
 
 #midbtndiv{ 
   margin-top: 30px;
 }
 
 #midbtn{
-  width: 710px;
+  width: 100%;
   color: rgb(75, 138, 213);
   font-size: 16px;
 }
@@ -146,6 +182,11 @@ body {
   text-align: center;
   color: rgb(147, 147, 147);
   margin-top: 30px;
+}
+
+#lastbtn{
+  margin-top: 30px;
+  width: 100%;
 }
 
 #right tr{
