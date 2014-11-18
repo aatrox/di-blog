@@ -209,3 +209,52 @@ body {
 #cssmenu ul ul li{
   border-bottom: 1px solid rgb(236, 236, 236) ;
 }
+
+
+/*halloween page*/
+#hlwmiddle #hlwh1{
+  color: rgb(83, 83, 83);
+}
+
+#hlwhp{
+  color: rgb(147, 147, 147);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hlwheader{
+  border-bottom: 1px solid rgb(219, 219, 219);
+  margin: 30px;
+}
+
+#hlwmiddle #hlwimg{
+  width: 60%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+#hlwbody{
+  margin: 30px;
+}
+
+#hlwmiddle p{
+  font-size: 18px;
+}
+
+h3{
+  color: rgb(0, 37, 84);
+}
+
+#hlwmain{
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#hlwlast p{
+  font-size: 25px;
+}
+
+#right a {
+  color: black;
+}
