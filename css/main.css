@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media(max-width: 991px){
@@ -49,27 +49,27 @@ body {
 }
 
 #header-a{
-  font-size: 300%;
+  font-size: 250%;
   color: white;
   line-height: 70px;
+  margin-left: 30px;
 }
 
 #header-follow{
   float:right;
-
 }
 
 #header-ul li{
   display: inline;
   margin-right: 30px;
   margin-left: 10px;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 #header-span{
   float: right;
-  font-size: 30px; 
-  line-height: 70px;
+  font-size: 20px; 
+  line-height: 80px;
   color: #a4a4a4;
 }
 
@@ -257,4 +257,8 @@ h3{
 
 #right a {
   color: black;
+}
+
+#hlwlast img{
+  margin-left: 20px; 
 }
