@@ -26,6 +26,17 @@ body {
   #middle p{
     font-size: 14px !important;
   }
+
+  #left-menu{
+    display: inline !important;
+    float: left;
+  }
+
+  #right-menu{
+    display: inline !important;
+    margin-right: 20px;
+    float: right;
+  }
 }
 
 @media(max-width: 580px){
@@ -261,4 +272,12 @@ h3{
 
 #hlwlast img{
   margin-left: 20px; 
+}
+
+#left-menu{
+  display: none;
+}
+
+#right-menu{
+  display: none;
 }
