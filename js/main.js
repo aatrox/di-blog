@@ -10,8 +10,18 @@ $(document).ready(function(){
   	$(this).siblings().removeClass('clickactive');
   	$(this).addClass('clickactive');
   	$(this).closest('ul').closest('li').siblings().removeClass('active');
+    $(this).closest('ul').closest('li').siblings().find('ul').find('li').removeClass('clickactive');
   	$(this).closest('ul').closest('li').addClass('active');
   })
+
+  // $('#left-sidr ul ul li').on('click', function(){
+  //   $(this).siblings().removeClass('clickactive');
+  //   $(this).addClass('clickactive');
+  //   $(this).closest('ul').closest('li').siblings().removeClass('active');
+  //   $(this).closest('ul').closest('li').siblings().find('ul').find('li').removeClass('clickactive');
+  //   $(this).closest('ul').closest('li').addClass('active');
+  // })
+
 
   $('#midbtndiv').on('click', function(){
   	$('.mid2nd').show();
@@ -32,7 +42,9 @@ $(document).ready(function(){
     }
   })
 
-  $('#simple-menu').sidr();
+  $('#left-menu').sidr({
+    name: 'left-sidr'
+  });
 })
 
 
