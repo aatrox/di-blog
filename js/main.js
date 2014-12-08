@@ -42,7 +42,10 @@ $(document).ready(function(){
     side: 'right'
   });
 
-  
+  $('#memiddle #container.js-masonry .item').on('click', function(){
+    var i = $('.item').index(this);
+    $('.carousel').carousel(i);
+  })
   
 })
 

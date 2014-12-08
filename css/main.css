@@ -313,13 +313,13 @@ h3{
 }
 
 /*me photos*/
-.item {
+#memiddle .item {
   width: 26%;
   border: 1px solid rgb(219, 219, 219);
-  margin: 2px;
+  margin: 10px;
 }
 
-.item.w2 {
+#memiddle .item.w2 {
   width: 50%
 }
 
@@ -337,3 +337,32 @@ h3{
   font-size: 10px;
 }
 
+@media(max-width: 1318px){
+  #memiddle .item{
+    width: 30%;
+  }
+}
+
+@media(max-width: 796px){
+  #memiddle #container .item{
+    width: 22%;
+  }
+}
+
+@media(max-width: 767px){
+  #memiddle .row #container .item{
+    width: 14%;
+  }
+}
+
+@media(max-width: 629px){
+  #memiddle .row #container .item{
+    width: 30%;
+  }
+}
+
+@media(max-width: 535px){
+  #memiddle .container-fluid .row #container .item{
+    width: 80%;
+  }
+}
