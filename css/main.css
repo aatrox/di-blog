@@ -141,6 +141,10 @@ body {
   height: 2000px;
 }
 
+.submenu {
+  display: inline !important;
+}
+
 #cssmenu > ul > li.active > a{
   color: rgb(56, 151, 222);
 }
@@ -308,7 +312,7 @@ h3{
 
 /*carousel*/
 #middle .item img{
-  width: 780px;
+  width: 100%;
   height: auto;
 }
 
