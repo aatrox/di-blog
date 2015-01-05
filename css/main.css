@@ -247,32 +247,32 @@ body {
 
 
 /*halloween page*/
-#hlwmiddle #hlwh1{
+#atcmiddle #atch1{
   color: rgb(83, 83, 83);
 }
 
-#hlwhp{
+#atchp{
   color: rgb(147, 147, 147);
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#hlwheader{
+#atcheader{
   border-bottom: 1px solid rgb(219, 219, 219);
   margin: 30px;
 }
 
-#hlwmiddle #hlwimg{
+#atcmiddle #atcimg{
   width: 60%;
   height: auto;
   margin-bottom: 30px;
 }
 
-#hlwbody{
+#atcbody{
   margin: 30px;
 }
 
-#hlwmiddle p{
+#atcmiddle p{
   font-size: 18px;
 }
 
@@ -280,13 +280,13 @@ h3{
   color: rgb(0, 37, 84);
 }
 
-#hlwmain{
+#atcmain{
   border-bottom: 1px solid rgb(219, 219, 219);
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
-#hlwlast p{
+#atclast p{
   font-size: 25px;
 }
 
@@ -294,7 +294,7 @@ h3{
   color: black;
 }
 
-#hlwlast img{
+#atclast img{
   margin-left: 20px; 
 }
 
